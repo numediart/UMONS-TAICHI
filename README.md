@@ -5,5 +5,9 @@ UMONS-TAICHI is a large 3D motion capture dataset of Taijiquan martial art gestu
 
 ## Processing
 
+To come...
+
+## References
+Dataset submitted to the Journal Data in Brief, reference will be added upon publication acceptance.
 
 [1]	M. Tits, J. Tilmanne, T. Dutoit, Morphology Independent Feature Engineering in Motion Capture Database for Gesture Evaluation, Proc. 4th Int. Conf. Mov. Comput.  - MOCO ’17. (2017) 1–8. https://doi.org/10.1145/3077981.3078037 
