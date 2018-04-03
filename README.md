@@ -10,8 +10,11 @@ To come...
 ## Download
 
 Qualisys data (.c3d): http://tcts.fpms.ac.be/~tits/C3D.zip
+
 Kinect data (.txt): http://tcts.fpms.ac.be/~tits/Kinect.zip
+
 Labels (.lab):  http://tcts.fpms.ac.be/~tits/Labels.zip
+
 All files can be used with the MotionMachine framework (ofxMotionMachine repository: https://github.com/numediart/ofxMotionMachine).
 
 ## References
