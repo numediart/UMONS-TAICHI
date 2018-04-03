@@ -9,15 +9,15 @@ Qualisys data were processed manually with [Qualisys Track Manager](http://www.q
 
 Missing data (occluded markers) were then recovered with an automatic recovery method: [MocapRecovery](https://github.com/titsitits/MocapRecovery).
 
-Data were annotated for gesture segmentation, using the [MotionMachine](https://github.com/numediart/ofxMotionMachine) framework. The code for annotation can be found [here](https://github.com/numediart/ofxMotionMachine/tree/master/mmTutorial_4_Annotation). Annotations were saved as ".lab" files (see Download section).
+Data were annotated for gesture segmentation, using the [MotionMachine](https://github.com/numediart/ofxMotionMachine) framework (C++ [openFrameworks](http://openframeworks.cc/) addon). The code for annotation can be found [here](https://github.com/numediart/ofxMotionMachine/tree/master/mmTutorial_4_Annotation). Annotations were saved as ".lab" files (see Download section).
 
-Data were then segmented (output files: TSV) using the code provided in this repository (see folder "Segmentation"). This code requires the [MoCap Toolbox](https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/materials/mocaptoolbox/), and optionally the [MoCap Toolbox Extension](https://github.com/titsitits/MocapRecovery/tree/master/MoCapToolboxExtension) for data visualization.
+Data were then segmented (output files: TSV) using the Matlab code provided in this repository (see folder "Segmentation"). This code requires the [MoCap Toolbox for Matlab](https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/materials/mocaptoolbox/), and optionally the [MoCap Toolbox Extension](https://github.com/titsitits/MocapRecovery/tree/master/MoCapToolboxExtension) for data visualization.
 
 ### Kinect
 
 The Kinect data were extracted with [Kinect Studio](https://msdn.microsoft.com/en-us/library/hh855389.aspx) and saved into “.txt” files which contain several lines corresponding to each captured frame. Each line contains one integer number (ms), relative to the moment when the frame was captured, followed by 3 x 25 float numbers corresponding to the 3-dimentional locations of the 25 body joints.
 
-Kinect data were then manually synchronized with Qualisys data, using the code provided in this repository (see folder "Synchronization"). This code requires the [MotionMachine](https://github.com/numediart/ofxMotionMachine) framework.
+Kinect data were then manually synchronized with Qualisys data, using the code provided in this repository (see folder "Synchronization"). This code requires the [MotionMachine](https://github.com/numediart/ofxMotionMachine) framework .
 
 ## Download
 
