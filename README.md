@@ -15,9 +15,9 @@ Data were then segmented (output files: TSV) using the Matlab code provided in t
 
 ### Kinect
 
-The Kinect data were extracted with [Kinect Studio](https://msdn.microsoft.com/en-us/library/hh855389.aspx) and saved into “.txt” files which contain several lines corresponding to each captured frame. Each line contains one integer number (ms), relative to the moment when the frame was captured, followed by 3 x 25 float numbers corresponding to the 3-dimentional locations of the 25 body joints.
+The Kinect data were recorded with [Kinect Studio](https://msdn.microsoft.com/en-us/library/hh855389.aspx). Skeleton data were then extracted with [Kinect SDK] and saved into “.txt” files which contain several lines corresponding to each captured frame. Each line contains one integer number (ms), relative to the moment when the frame was captured, followed by 3 x 25 float numbers corresponding to the 3-dimentional locations of the 25 body joints.
 
-Kinect data were then manually synchronized with Qualisys data, using the code provided in this repository (see folder "Synchronization"). This code requires the [MotionMachine](https://github.com/numediart/ofxMotionMachine) framework .
+Kinect data were then manually synchronized with Qualisys data, using the code provided in this repository (see folder "Synchronization"). This code requires the [MotionMachine](https://github.com/numediart/ofxMotionMachine) framework.
 
 ## Download
 
