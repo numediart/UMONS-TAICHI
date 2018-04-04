@@ -1,0 +1,15 @@
+ID	Gender (M/F)	Age	Weight (kg)	Height (cm)	Practice (year)	Category	Skill1 (0-10)	Skill2 (0-10)	Skill3 (0-10)	Skillµ (0-10)
+P01	M	56	95	196	32	Expert	9.3	9	10	9.43
+P02	F	57	78	163	30	Expert	9.6	9.1	10	9.57
+P03	F	62	58	162	24	Expert	8.5	8.5	9	8.67
+P04	F	47	53	150	12	Advanced	8.2	8	8	8.07
+P05	F	71	61	163	14	Advanced	6.8	7.4	7.5	7.23
+P06	M	25	76	180	10	Advanced	8.4	8.6	8.5	8.5
+P07	F	49	57	157	4	Intermediate	7	6.8	6.5	6.77
+P08	F	34	56	158	3	Intermediate	8	7.3	7	7.43
+P09	M	51	90	178	2.5	Intermediate	6.9	6.8	6.85	6.85
+P10	F	59	55	163	1	Novice	6	5.8	6.5	6.1
+P11	F	65	58	165	0.2	Novice	5	4.9	5	4.97
+P12	M	28	96	181	0.6	Novice	5.8	6	5.75	5.85
+M		50.33	69.42	168	11.11		7.46	7.35	7.55	7.45
+SD		14	15.93	12.46	11.15		1.37	1.29	1.53	1.38
