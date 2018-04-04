@@ -27,6 +27,8 @@ Segmented Qualisys data (.tsv): http://tcts.fpms.ac.be/~tits/Segmented_TSV.zip
 
 Kinect data (.txt): http://tcts.fpms.ac.be/~tits/Kinect.zip
 
+Segmented Kinect data (.txt): http://tcts.fpms.ac.be/~tits/Segmented_Kinect.zip
+
 Labels (.lab):  http://tcts.fpms.ac.be/~tits/Labels.zip
 
 
