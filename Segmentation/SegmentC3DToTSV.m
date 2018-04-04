@@ -16,6 +16,8 @@ if test
     error('Correct your label files before segmenting!');
 end
 
+filenames = dir('*.c3d');
+
 mkdir('segmented');
 
 if iscell(filenames)
@@ -96,13 +98,15 @@ end
 fclose('all');
 toc;
 
-%% Visualization Example (Requires the MoCap Toolbox extension, 
+%% Visualization Example - Requires the MoCap Toolbox extension, 
 %available at:
 % https://github.com/titsitits/MocapRecovery/tree/master/MoCapToolboxExtension
-close all;
-filename = dir(['segmented/P01T03C02G13D01S01.tsv']);
-disp(filename(1).name);
-tmptrack = mcread([filename(1).folder '\' filename(1).name]);
-p = mcinitanimpar;
-%p.conn = mcautomaticbones2(tmptrack);
-mc3dplot(tmptrack,p);
+
+% close all;
+% filename = dir(['segmented/*.txt']);
+% id = 1;
+% disp(filename(id).name);
+% tmptrack = mcread([filename(id).folder '\' filename(id).name]);
+% p = mcinitanimpar;
+% %p.conn = mcautomaticbones2(tmptrack);
+% mc3dplot(tmptrack,p);
