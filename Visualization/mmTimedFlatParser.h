@@ -11,6 +11,8 @@ namespace MoMa {
 
 		TimedFlatParser( std::string const &fileName, Track *track );
         void load( std::string const &fileName, Track *track );
+        void save(std::string const &fileName, Track *track);
+
 		arma::vec timestamps;
     };
 }

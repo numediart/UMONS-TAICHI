@@ -9,7 +9,6 @@
 #include "MoMa.h"
 #include "MoMaUI.h"
 #include "ofMain.h"
-#include "tracksView.h"
 #include "mmGeometry.h"
 #include "mmTimedFlatparser.h"
 
@@ -34,16 +33,9 @@ class ofApp : public MoMa::SceneApp {
     void windowResized( int w, int h );
     void dragEvent( ofDragInfo dragInfo );
     void gotMessage( ofMessage msg );
-	bool has_suffix(const std::string &str, const std::string &suffix);
-	inline bool exists(const std::string& name);
 
-	string mocap_file_name;
+	bool has_suffix(const std::string &str, const std::string &suffix);
 
 	MoMa::Trace com, com_c3d;
 
-	// duplicate first frame multiple times if the txt file starts before c3d one, taking into account the timestamps.
-	void generate();
-	void save_track(MoMa::Track &tr, string f);
-
-	int gen_frame;
 };

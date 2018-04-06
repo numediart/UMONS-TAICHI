@@ -19,6 +19,11 @@ void TimedFlatParser::load( string const &fileName, Track *track ) {
     }
 
     track->clearData();
+    track->type = FLAT;
+    size_t sep = fileName.find_last_of("\\/");
+    size_t dot = fileName.find_last_of(".");
+    string name = fileName.substr(sep + 1, dot - sep - 1);
+    track->setFileName(name);
 
     unsigned int nbFrames = 0, nbNodes = 0;
     while ( datFile.good() ) {
@@ -101,6 +106,27 @@ void TimedFlatParser::load( string const &fileName, Track *track ) {
 	timestamps[0] = 0;
     //track->setFrameRate( 30 );
    // std::cout << "Note: default framerate for a flat file is set at 30 fps. Do not forget to set the right framerate in your track." << endl;
-    track->position.setData( timestamps, positionData );
+    track->position.setData( timestamps, positionData );    
     datFile.close();
+}
+
+void TimedFlatParser::save(std::string const &fileName, Track *track) {
+
+
+    ofstream fileout(getDataPath() + fileName);
+    if (fileout.is_open()) {
+
+        for (int i = 0; i < track->nOfFrames(); i++) {
+
+            fileout << to_string(track->position.time(i) * 1000) + " ";
+
+            for (int j = 0; j < track->nOfNodes(); j++) {
+
+                fileout << to_string(track->position.getData()(0, j, i)) + " " +
+                    to_string(track->position.getData()(1, j, i)) + " " +
+                    to_string(track->position.getData()(2, j, i)) + " ";
+            }
+            fileout << "\n";
+        }
+    }
 }
