@@ -21,15 +21,21 @@ Kinect data were then manually synchronized with Qualisys data. Synchronized dat
 
 ## Download
 
-Qualisys data (.c3d): http://tcts.fpms.ac.be/~tits/C3D.zip
+### Qualisys
+#### C3D
+Unsegmented: http://tcts.fpms.ac.be/~tits/C3D.zip
+Segmented: http://tcts.fpms.ac.be/~tits/Segmented_C3D.zip
+#### TSV
+Unsegmented: http://tcts.fpms.ac.be/~tits/TSV.zip
+Segmented: http://tcts.fpms.ac.be/~tits/Segmented_TSV.zip
 
-Segmented Qualisys data (.tsv): http://tcts.fpms.ac.be/~tits/Segmented_TSV.zip
+### Kinect
+Unsegmented (.txt): http://tcts.fpms.ac.be/~tits/Kinect.zip
+Segmented (.txt): http://tcts.fpms.ac.be/~tits/Segmented_Kinect.zip
 
-Kinect data (.txt): http://tcts.fpms.ac.be/~tits/Kinect.zip
+### Labels
+(.lab):  http://tcts.fpms.ac.be/~tits/Labels.zip
 
-Segmented Kinect data (.txt): http://tcts.fpms.ac.be/~tits/Segmented_Kinect.zip
-
-Labels (.lab):  http://tcts.fpms.ac.be/~tits/Labels.zip
 
 
 All files (except TSV for now) can be used with the [MotionMachine](https://github.com/numediart/ofxMotionMachine) framework.
