@@ -26,6 +26,8 @@ Kinect data were then manually synchronized with Qualisys data. Synchronized dat
 Unsegmented: http://tcts.fpms.ac.be/~tits/C3D.zip
 
 Segmented: http://tcts.fpms.ac.be/~tits/Segmented_C3D.zip
+(note: segmented c3d files were converted from tsv files using [Visual3D](http://www2.c-motion.com/products/visual3d/)).
+
 #### TSV
 Unsegmented: http://tcts.fpms.ac.be/~tits/TSV.zip
 
