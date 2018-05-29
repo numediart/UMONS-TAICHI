@@ -47,6 +47,7 @@ All files can be used with the [MotionMachine](https://github.com/numediart/ofxM
 
 ## References
 To cite this dataset (accepted manuscript under edition):
+
 Tits, M., Laraba, S., Caulier, E., Tilmanne, J., & Dutoit, T. (2018). UMONS-TAICHI: A Multimodal Motion Capture Dataset of Expertise in Taijiquan Gestures. Data in Brief (2018). https://doi.org/10.1016/j.dib.2018.05.088
 
 [1]	M. Tits, J. Tilmanne, T. Dutoit, Morphology Independent Feature Engineering in Motion Capture Database for Gesture Evaluation, Proc. 4th Int. Conf. Mov. Comput.  - MOCO ’17. (2017) 1–8. https://doi.org/10.1145/3077981.3078037 
