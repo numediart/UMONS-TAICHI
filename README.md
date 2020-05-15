@@ -23,23 +23,23 @@ Kinect data were then manually synchronized with Qualisys data. Synchronized dat
 
 ### Qualisys
 #### C3D
-Unsegmented: http://tcts.fpms.ac.be/~tits/C3D.zip or https://zenodo.org/record/2784581/files/C3D.zip?download=1
+Unsegmented: https://zenodo.org/record/2784581/files/C3D.zip?download=1
 
-Segmented: http://tcts.fpms.ac.be/~tits/Segmented_C3D.zip or https://zenodo.org/record/2784581/files/Segmented_C3D.zip?download=1
+Segmented: https://zenodo.org/record/2784581/files/Segmented_C3D.zip?download=1
 (note: segmented c3d files were converted from tsv files using [Visual3D](http://www2.c-motion.com/products/visual3d/)).
 
 #### TSV
-Unsegmented: http://tcts.fpms.ac.be/~tits/TSV.zip or https://zenodo.org/record/2784581/files/TSV.zip?download=1
+Unsegmented: https://zenodo.org/record/2784581/files/TSV.zip?download=1
 
-Segmented: http://tcts.fpms.ac.be/~tits/Segmented_TSV.zip or https://zenodo.org/record/2784581/files/Segmented_TSV.zip?download=1
+Segmented: https://zenodo.org/record/2784581/files/Segmented_TSV.zip?download=1
 
 ### Kinect
-Unsegmented (.txt): http://tcts.fpms.ac.be/~tits/Kinect.zip or https://zenodo.org/record/2784581/files/Kinect.zip?download=1
+Unsegmented (.txt): https://zenodo.org/record/2784581/files/Kinect.zip?download=1
 
-Segmented (.txt): http://tcts.fpms.ac.be/~tits/Segmented_Kinect.zip or https://zenodo.org/record/2784581/files/Segmented_Kinect.zip?download=1
+Segmented (.txt): https://zenodo.org/record/2784581/files/Segmented_Kinect.zip?download=1
 
 ### Labels
-(.lab):  http://tcts.fpms.ac.be/~tits/Labels.zip or https://zenodo.org/record/2784581/files/Labels.zip?download=1
+(.lab):  https://zenodo.org/record/2784581/files/Labels.zip?download=1
 
 
 
